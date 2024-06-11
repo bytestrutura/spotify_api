@@ -1,0 +1,51 @@
+body {
+  background-color: #757575;
+}
+
+.navbar {
+  background-color: #181818;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.icon {
+  width: 2.5em;
+  height: 2.5em;
+  float: left;
+  display: block;
+  padding: 10px 10px;
+}
+
+.login {
+  display: block;
+  width: 33em;
+  height: 43em;
+  background-color: #181818;
+  padding: 2em;
+  border-radius: 3em;
+}
+.login input {
+  float: left;
+  display: block;
+  width: 30em;
+}
+
+.login label {
+  float: left;
+  display: block;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
